@@ -11,15 +11,19 @@ On installe jest avec la commande npm install --save-dev jest
 
 ## On configure le package.json
 
-![alt text](image-5.png)
+![alt text](image-4.png)
 
 ## On lance un test avec jest et on voit bien qu'il passe
 
-![alt text](image-6.png)
+![alt text](image-5.png)
 
 ## On modifie volantairement le code pour le faire échouer
 
+![alt text](image-6.png)
 ![alt text](image-7.png)
-![alt text](image-8.png)
 Après avoir lancé npm test on obtient bien l'erreur
+![alt text](image-8.png)
+
+## On recorrige l'erreur et on voit que le test passe au vert
+
 ![alt text](image-9.png)
