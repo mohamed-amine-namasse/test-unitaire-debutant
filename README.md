@@ -16,3 +16,10 @@ On installe jest avec la commande npm install --save-dev jest
 ## On lance un test avec jest et on voit bien qu'il passe
 
 ![alt text](image-6.png)
+
+## On modifie volantairement le code pour le faire échouer
+
+![alt text](image-7.png)
+![alt text](image-8.png)
+Après avoir lancé npm test on obtient bien l'erreur
+![alt text](image-9.png)
